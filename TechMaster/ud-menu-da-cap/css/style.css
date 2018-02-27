@@ -1,0 +1,77 @@
+html, body{margin: 0;padding: 0}
+*{box-sizing: border-box;}
+.wrap img{max-width: 100%;}
+p{
+	text-align: center;
+	
+	font-family: 'Times New Romans', serif !important;
+    color: #4d4e73 !important;
+}
+#banner{
+
+	height: 82px;
+	background: url("../img/banner.jpg") repeat scroll 0 0 / cover;;
+}
+body{
+	font-weight: 500;
+	background-color: #FFFFFF;
+}
+
+#top{
+	width: 1000px;
+	margin: auto;
+
+}
+#gioithieu{
+	width: 360px;
+	height: 420px;
+	float: left;
+	padding: 0 0 0 20px;
+	font-size: 18px;
+    font-style: italic;
+    line-height: 30px;
+}
+#gioithieu h5{
+	font-family: 'Times New Romans', serif !important;
+    color: #4d4e73 !important;
+}
+
+.wrap{
+	margin: auto;
+	max-width: 1000px;
+	padding-top: 436px;
+}
+.col{
+	float: left;
+	width: 33.333333%;
+	padding: 15px;
+	position: relative;
+}
+.thumb{
+	border: 1px solid #ddd;
+	cursor: pointer;
+}
+.thumb img{
+	vertical-align: middle;
+}
+.thumb:hover{
+	transform: translate(0, -5px);
+	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2)
+}
+.bot{
+	margin-top: 1000px;
+	background: #010000;
+	height: 174px;
+
+}#goTop {
+	bottom: 15px;
+	cursor: pointer;
+	height: 35px;
+	position: fixed;
+	right: 15px;
+	width: 44px;
+}
+img{max-width: 100%;}
+a{
+    text-decoration: none;
+}

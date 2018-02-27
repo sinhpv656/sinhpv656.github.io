@@ -1,0 +1,43 @@
+html, body {margin: 0;padding: 0}
+body  {
+    background-image: url("../img/bg.gif");
+}
+.wrap{
+	margin: auto;
+	max-width: 1200px;
+}
+.cake {
+	width:250px;
+    animation: 15s ease 0s normal none 1 running hieuung;
+    position: relative;
+}
+@keyframes hieuung{
+	from{bottom:-200px;opacity:0;}
+	to{bottom:0px;opacity:1}
+}
+.col{
+	box-sizing: border-box;
+	float: left;
+	width: 33.333333%;
+	padding: 100px;
+	height: 600px;
+}
+.col3{
+	color: white;
+}
+.w3-animate-bottom{
+	animation:15s ease 0s normal none 1 running animatebottom}
+
+@keyframes animatebottom{
+	from{bottom:-200px;opacity:0} 
+	to{bottom:0;opacity:1}
+}
+.bot{
+	display: block;
+	text-align: center;
+}
+.w3-animate-right{
+	color: white;
+	position:relative;animation:animateright 10s}
+@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+

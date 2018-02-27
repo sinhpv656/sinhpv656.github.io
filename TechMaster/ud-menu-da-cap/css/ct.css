@@ -1,0 +1,41 @@
+html, body{margin: 0;padding: 0}
+*{box-sizing: border-box;}
+.wrap img{max-width: 100%;}
+p, h1, h2 ,h3, h4, h5, h6{
+	
+	font-family: 'Times New Romans', serif !important;
+    color: #4d4e73 !important;
+}
+#banner{
+
+	height: 82px;
+	background: url("../img/banner.jpg") repeat scroll 0 0 / cover;;
+}
+body{
+	font-weight: 500;
+	background-color: #FFFFFF;
+}
+
+#top{
+	width: 1000px;
+	margin: auto;
+
+}
+
+.wrap{
+	margin: auto;
+	max-width: 1000px;
+}
+.bot{
+	background: #010000;
+	height: 174px;
+
+}#goTop {
+	bottom: 15px;
+	cursor: pointer;
+	height: 35px;
+	position: fixed;
+	right: 15px;
+	width: 44px;
+}
+img{max-width: 100%;}

@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Đăng kí tài khoản</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <i><h1>Đăng kí thành viên</h1></i>
+        <div class="title-lg mg-bt-20" style="padding-bottom: 0,     border-bottom: 1px solid #cbd3db;">
+        </div>
+        <form action="dki-xong.html" id="form-register">
+            <div class="pr">
+                <p>Họ và tên</p>
+                <i class="fa fa-user" aria-hidden="true"></i><input class="ipt" type="text" id="hoten" name="name" placeholder="Họ tên"><span class="error"></span></div><br>
+
+            <div class="pr">
+                <p>Địa chỉ</p><i class="fa fa-map-marker" aria-hidden="true"></i><input id="dc" class="ipt" type="text" name="diachi" placeholder="Vui lòng nhập địa chỉ"><span class="error"></span></div><br>
+            <div class="pr">
+                <p>Số điện thoại</p><i class="fa fa-phone" aria-hidden="true"></i><input id="sdt" class="ipt" type="text" name="dienthoai" placeholder="Vui lòng nhập số điện thoại"><span class="error"></span></div><br>
+            <div class="pr">
+                <p>Email</p><i class="fa fa-envelope-o" aria-hidden="true"></i><input class="ipt" type="text" id="em" name="email" placeholder="Nhập email muốn đăng ký"><span class="error"></span></div><br>
+            <div class="pr">
+                <p>Địa chỉ facebook</p><i class="fa fa-facebook-square" aria-hidden="true"></i><input class="ipt" type="text" id='facebook1' name="facebook" placeholder="Nhập facebook của bạn"><span class="error"></span></div><br>
+            <div class="pr">
+                <p>Mật khẩu</p><i class="fa fa-key" aria-hidden="true"></i><input  class="ipt" type="password" id="mk" name="password" placeholder="Vui lòng nhập mật khẩu"><span class="error"></span></div><br>
+            <div class="pr">
+                <p>Nhập lại mật khẩu</p><i class="fa fa-key" aria-hidden="true"></i><input id="mk1" class="ipt" type="password" name="password" placeholder="Vui lòng nhập lại mật khẩu"><span class="error"></span></div>
+            <br>
+            <div class="pr">
+                <p>Ngày sinh</p><i class="fa fa-calendar" aria-hidden="true"></i><input id="ngays" class="ipt" type="date" name="ngaysinh"></div><br>
+            <div class="pr"><label class="gd" for="male"><i class="fa fa-mars" aria-hidden="true"></i><input  type="radio" name="gender" id="male" value="Nam">Nam</label>
+                <label class="gd" for="female"><i class="fa fa-venus" aria-hidden="true"></i><input id="female" type="radio" name="gender" value="Nữ">Nữ</label>
+            </div>
+            <br>
+            <div class="pr" style="border:none"><input class="ipt gd btn" type="submit" value="Đăng kí"></div>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="xu-ly-form.js"></script>
+  
+</body>
+
+</html>

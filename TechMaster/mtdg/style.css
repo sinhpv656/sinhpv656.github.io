@@ -1,0 +1,32 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+#wrap {
+    width: 292px;
+    display: block;
+    border: 2px solid #333;
+    margin-top: 100px;
+    background-color: darkgray;
+
+}
+
+.btn {
+    padding: 10px;
+    margin: 10px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#hienThi {
+    padding: 5px;
+    margin: 15px 0px 0px 10px;
+    width: 270px;
+    height: 40px;
+    font-size: 18px;
+    outline: none;
+    text-align: right;
+}

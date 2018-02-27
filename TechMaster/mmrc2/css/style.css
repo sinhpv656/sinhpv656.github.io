@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    background-image: url(../img/bg.jpg);
+}
+
+img {
+    cursor: pointer;
+}
+
+h1 {
+    margin: 30px;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.wrap {
+    position: relative;
+    margin: auto;
+    padding: 15px;
+    max-width: 1265px;
+    max-height: 616px;
+    height: 100%;
+}
+
+.content {
+    position: relative;
+    overflow: auto;
+    margin: 20px;
+    float: left;
+
+}
+
+.grid {
+    float: left;
+    padding: 10px;
+}
+
+.c1{
+    pointer-events:auto;
+}
+.c2{
+    pointer-events: none;
+}
+
+.card {
+    position: relative;
+    
+}
+
+.card .front {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/*
+.card:hover .front {
+    transform: rotateY(0deg);
+}
+
+.card:hover .back {
+    transform: rotateY(180deg);
+}
+*/
+
+
+
+.card .back,
+.card .front {
+    transition: all 0.5s;
+    backface-visibility: hidden;
+}
+.card.flipped .front{
+    transform: rotateY(0deg);
+    
+    pointer-events: none;
+}
+.card.flipped .back{
+    transform: rotateY(180deg);
+    
+    pointer-events: none;
+}

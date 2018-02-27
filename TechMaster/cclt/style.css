@@ -1,0 +1,54 @@
+* {
+    
+    margin: auto;
+    padding: 0;
+}
+
+#spv {
+    
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    color: darkgray;
+    font-family: fantasy;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#wrap {
+    border-radius: 10px;
+    width: 292px;
+    display: block;
+    border: 2px solid #333;
+    margin-top: 80px;
+    background-color: black;
+}
+
+.btn {
+    padding: 10px;
+    margin: 10px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    border-radius: 7px;
+    color: currentColor;
+    background-color: darkgray;
+}
+
+#hienThi {
+    background-color: gainsboro;
+    color: #060113;
+    padding: 5px;
+    margin: 30px 0px 15px 10px;
+    width: 270px;
+    height: 40px;
+    font-size: 18px;
+    outline: none;
+    text-align: right;
+    border-radius: 10px;
+}
+
+#AC {
+    background-color: red;
+}

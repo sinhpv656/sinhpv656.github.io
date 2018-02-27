@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+    padding-left: 66px;
+    color: rgb(165, 12, 12);
+}
+
+i {
+    width: 20px;
+}
+
+.wrap {
+    padding: 0;
+    margin: auto;
+    max-width: 400px;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+
+    color: rgb(165, 12, 12);
+    background-color: rgb(233, 239, 224);
+    box-shadow: 5px 5px 5px #666;
+}
+
+.ipt {
+    width: 331px;
+    height: 34px;
+    padding-left: 25px;
+    font-size: 13px;
+    border-radius: 5px;
+    margin: 7px;
+}
+
+.pr {
+    margin: 0px 9px 0px 9px;
+    padding: 0px 5px 0px 5px;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.gd {
+    cursor: pointer;
+}
+
+.btn {
+    width: 356px;
+    padding: 0;
+    background-color: rgb(206, 202, 202);
+    color: rgb(165, 12, 12);
+    text-align: center;
+}

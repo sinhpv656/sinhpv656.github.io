@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>Caculator</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="wrap">
+       <div id="spv"><b>CUIBAP BY SPV</b></div>
+        <div id="hienThi1"><input id="hienThi" type="text" placeholder="0"></div>
+        <div>
+            <button class="btn" onclick="giaithua()">x!</button>
+            <button class="btn" onclick="canbachai()">&#8730x</button>
+            <button class="btn" onclick="binhphuong()">x&#178;</button>
+            <button id="AC" class="btn" onclick="ac()">AC</button>
+        </div>
+        <div>
+            <button class="btn" onclick="addScreen('9')">9</button>
+            <button class="btn" onclick="addScreen('8')">8</button>
+            <button class="btn" onclick="addScreen('7')">7</button>
+            <button id='cong' class="btn" onclick="addScreenDau('+')">+</button>
+        </div>
+        <div>
+            <button class="btn" onclick="addScreen('6')">6</button>
+            <button class="btn" onclick="addScreen('5')">5</button>
+            <button class="btn" onclick="addScreen('4')">4</button>
+            <button id='tru' class="btn" onclick="addScreenDau('-')">-</button>
+        </div>
+        <div>
+
+            <button class="btn" onclick="addScreen('3')">3</button>
+            <button class="btn" onclick="addScreen('2')">2</button>
+            <button class="btn" onclick="addScreen('1')">1</button>
+            <button id='nhan' class="btn" onclick="addScreenDau('x')">x</button>
+        </div>
+        <div>
+            <button class="btn" onclick="addScreen('0')">0</button>
+            <button class="btn" onclick="dauCham('.')">.</button>
+            <button class="btn" onclick="motChiaX()">1/x</button>
+            <button class="btn" onclick="addScreenDau('÷')">÷</button>
+        </div>
+        <div>
+            <button class="btn" onclick="xoaMotKiTu()">&#8592;</button>
+            <button class="btn" onclick="dauAm()">+/-</button>
+            <button class="btn" onclick="ketQua()" style="width:124px;">=</button>
+        </div>
+    </div>
+</body>
+
+</html>

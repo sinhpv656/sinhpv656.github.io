@@ -1,0 +1,80 @@
+*{margin: 0; padding: 0;} 
+.giadinh{
+	width: 430px ;
+	height: 360px;
+	margin: auto;
+}
+.tieude{
+	border-top: 1px solid brown;
+	text-align: center;
+	padding-top: 17px;
+}
+.tieude a{
+	text-decoration: none;
+	color: brown;
+	font-family: font-family: 'Athiti', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+	position: relative;
+	top: -20px;
+	background-color: white;
+	padding: 0 10px 0 10px;
+}
+.vien{
+	border-top: 1px solid gray;
+	border-bottom: 3px solid#414141;
+	height: 5px;
+}
+.tin{
+	margin-top: 20px;
+}
+.tin img{
+	float: left;
+	margin-right: 17px;
+	border: 1px solid #b3b3b3;
+	padding: 2px;
+	box-shadow: 6px 6px 0px rgba(128,128,128,0.21);
+}
+.tin .tdtin{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: font-family: 'Athiti', sans-serif;
+	line-height: 18px;
+	margin-bottom: 8px;
+	display: block;
+}
+.tin p{
+	overflow: hidden;
+	font-size: 11px;
+	color: gray;
+	font-family: tahoma;
+	line-height: 21px;
+}
+.dstin{
+	margin-top: 26px;
+
+}
+.dstin ul{
+	list-style: none;
+}
+.dstin ul li{
+	border-bottom: 1px dotted gray;
+	padding: 10px 0;
+}
+.dstin i{
+	font-size: 7px;
+	padding-right: 7px;
+	padding-bottom: 4px;
+	position: relative;
+	top: -3px;
+	color: red;
+}
+.dstin a{
+	font-family: tahoma;
+	color: gray;
+	font-size: 13px;
+	text-decoration: none;
+}

@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0;} 
+
+
+.fa-facebook-square{
+	font-size: 40px;
+	color: chocolate;
+}
+.fa-facebook-square:hover{
+	font-size: 160px;
+	color: violet;
+	padding-left: 50px;
+	transition: 0.4s;
+}

@@ -1,0 +1,111 @@
+*{margin: 0; padding: 0;} 
+.icon{
+	width: 30px;
+
+}
+.icon i{
+	font-size: 22px;
+	padding-bottom: 13px;
+}
+.anh{
+	width: 263px;
+	height: 335px;
+	position: relative;
+	margin: auto;
+
+}
+.anh .layer1{
+	position: absolute;
+	z-index: 1;
+	top:0px;
+	left: 0px;
+
+}
+
+.anh .layer2{
+	position: absolute;
+	z-index: 2;
+	top:0px;
+	left: 0px;
+
+	opacity: 0;
+	transition: 0.4s;
+	
+}
+.anh .icon{
+	position: absolute;
+	z-index: 3;
+	top:0px;
+	right: 0px;
+
+	opacity: 0;
+	transition: 0.4s;
+	
+}
+
+
+.anh:hover .icon{
+opacity:1;
+}
+
+.anh:hover .layer2{
+opacity:1;
+}
+.khoisp{
+	width: 263px;
+	height: 400px;
+
+	margin: auto;
+}
+.tieude{
+	font-size: 14px;
+	padding: 0px 0px;
+	border-bottom: 1px solid gray;
+	display: inline-block;
+	margin-top: 10px;
+
+}
+
+.duoi .trai {
+	position: relative;
+	width: 180px;
+	height: 40px;
+
+	font-family: 'segoe ui light';
+	margin-top: 10px;
+
+}
+
+.duoi .trai .lop1 {
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	color: gray;
+	font-size: 11px;
+	transition: 0.4s;
+
+	}
+.duoi .trai .lop2{
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	z-index: 2;
+
+	font-weight: bold;
+	color: #414141;
+	font-size: 11px;
+	transition: 0.4s;
+	opacity: 0;
+
+}
+
+.duoi .trai:hover .lop1 {
+	top: -20px;
+	opacity: 0;
+}
+.duoi .trai:hover .lop2{
+	top: 0px;
+	opacity: 1;
+}

@@ -1,0 +1,14 @@
+ .tintrai {
+ 	width:210px;
+ 	height: 79px;
+ 	background-image: url(1.jpg);
+ 	padding-top: 222px;
+ }
+ .tintrai .tdtt {
+ 	text-decoration: none;
+ 	color:white;
+ 	background-color: rgba(0, 0, 0, 0.5);
+ 	padding:10px;
+ 	display: block;
+
+ }

@@ -1,0 +1,36 @@
+*{margin: 0; padding: 0;}
+
+section{
+	width: 334px;
+	margin: auto;
+}
+div img{
+	float: right;
+}
+div a{
+	font-size: 14px;
+}
+article{
+	width: 152px;
+	height: 156px;
+	margin-right: 15px;
+	float: left;
+}
+img{
+	width: 152px;
+}
+a{
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 10.5px;
+	text-decoration: none;
+	line-height: 19px;
+	/*dãn dòng nhỏ hơn bỏ giới hạn */
+	display: block;
+	color: #555;
+
+}
+a:hover{
+	color: orange;
+	text-decoration: none;
+}

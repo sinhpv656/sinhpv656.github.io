@@ -1,0 +1,61 @@
+*{margin: 0; padding: 0;}
+
+article.tinnho{
+	width: 325px;
+	height: 275px;
+	margin-right:22px;
+	border: 1px solid #E9E9E9;
+	float: left;
+}
+article.tinnho img{
+	width: 100%;
+	padding-bottom: 14px;
+}
+a.tdtinnho{
+	text-decoration: none;
+	color: #414141;
+	font-family: 'tahoma';
+	font-weight: bold;
+	font-size: 13px;
+	padding-bottom: 34px;
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.thongtin{
+	padding: 0px 0px 10px 10px;
+	font-family: 'tahoma';
+	font-size: 11px;
+	color: gray;
+
+}
+
+/*css div to*/
+article.tinto{
+	width: 672px;
+	margin-bottom: 22px;
+	overflow: hidden;
+}
+.tinto img{
+	width: 441px;
+	float: left;
+	margin-right:22px;
+}
+.tentg{
+	text-align: center;
+	display: block;
+	font-family: tahoma;
+	font-size: 11px;
+	color: #414141;
+	font-style: italic;
+}
+.phai{
+	font-family: tahoma;
+	font-size: 13px;
+}
+.tdto {
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	color: #414141;
+}

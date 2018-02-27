@@ -1,0 +1,62 @@
+*{margin: 0; padding: 0;} 
+.banner{
+	text-align: center;
+}
+.cangiua{
+	width: 1000px;
+	margin: auto;
+
+}
+.noidung{
+	width: 800px;
+
+}
+div.tieude h2{
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-top: 102px;
+	border-bottom: 8px solid #afafaf;
+	padding-bottom: 8px;
+	text-transform: uppercase;
+	margin-bottom: 29px;
+	font-size: 33px;
+	color: #333333;
+}
+.tinto{
+	height: 370px;
+	border-bottom: 1px solid gray;
+	margin-bottom: 20px;
+
+}
+.tinto img{
+	width: 350px;
+	margin-right: 27px;
+	float:left;
+}
+.tdtinto{
+	text-decoration: none;
+	font-size: 21px;
+	color: black;
+	margin-bottom: 8px;
+	display: block;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.thongtin{
+	font-family: tahoma;
+	font-size: 11px;
+	color: gray;
+	margin-bottom: 11px;
+
+}
+.tinto p{
+	color: gray;
+	font-size: 13px;
+	font-family: tahoma;
+	line-height: 20px;
+}
+.nhohon1ti img
+{
+	width: 150px;
+}
+.nhohon1ti{
+	height: 175px;
+}

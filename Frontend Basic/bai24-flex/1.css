@@ -1,0 +1,86 @@
+*{margin: 0; padding: 0;} 
+.nho{
+	background: #eee;
+	color: #414141;
+	padding: 7px;
+	transition: 0.4s;
+	width: 30px;
+	height: 30px;
+	box-sizing: border-box;
+}
+.nho:hover{
+	color: white;
+	background: black;
+	cursor: pointer;
+}
+.nho:last-child{
+	background: orange;
+}
+.tren{
+	width: 270px;
+	height: 325px;
+	position: relative;
+}
+.tren .layer1{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	z-index: 2;
+}
+.tren .nen{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 270px;
+	height: 323px;
+	background-color: rgba(255,255,255,0.4);
+	background-image: -webkit-linear-gradient(45deg ,#f7c62669 15%,#f68c2f61 40%,#e5127d45 85% );
+	border-bottom: 2px solid orange;
+	opacity: 0;
+	transition: 0.4s;
+}
+
+
+.tren:hover .nen{
+	opacity: 1;
+}
+.tren .cacicon{
+
+	position: absolute;
+	left: 0;
+	z-index: 3;
+
+
+	width: 270px;
+	height: 30px;
+	text-align: center;
+	
+	top: 50%;
+	margin-top: -15px;
+	/*can giua: cach top 50% tru di nua chieu cao cua icon*/
+	transition: 0.2s;
+	transform: scale(0);
+}
+
+.tren:hover .cacicon{
+
+	transform: scale(01);
+	transition-delay: 0.4s;
+}
+.duoi{
+	text-align: center;
+	padding: 10px;
+	font-family: 'segoe ui light';
+	color: gray;
+}
+.motsp{
+	width: 270px;
+}
+.nhieusp{
+	display: flex;
+	flex-wrap: wrap;
+	width: 850px;
+	margin: auto;
+	justify-content: space-between;
+}

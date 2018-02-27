@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <title>Caculator</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+    <script type="text/javascript" src="giaodien.js"></script> 
+</head>
+<body>
+    <div id="wrap" class="w1">
+        <div id="spv"><b>CUIBAP BY SPV</b></div>
+        <div id="hienThi1"><input id="hienThi" type="text" placeholder="0"></div>
+        <div class="phim">
+            <button id="AC" class="btn" onclick="ac()" style="background-color: red; color:white;">AC</button>
+            <button class="btn" id="tm" style="background-color:#67c184">TH</button>
+            <button class="btn pt" onclick="canbachai()">&#8730x</button>
+            <button class="btn pt" onclick="binhphuong()">x&#178;</button>
+        </div>
+        <div class="phim">
+            <button class="btn pt" onclick="motChiaX()">1/x</button>
+            <button class="btn pt" onclick="giaithua()">x!</button>
+            <button class="btn cls" onclick="addScreen('9')">9</button>
+            <button class="btn cls" onclick="addScreen('8')">8</button>
+        </div>
+        <div class="phim">
+            <button class="btn cls" onclick="addScreen('7')">7</button>
+            <button class="btn cls" onclick="addScreen('6')">6</button>
+            <button class="btn cls" onclick="addScreen('5')">5</button>
+            <button class="btn cls" onclick="addScreen('4')">4</button>
+        </div>
+        <div class="phim">
+
+            <button class="btn cls" onclick="addScreen('3')">3</button>
+            <button class="btn cls" onclick="addScreen('2')">2</button>
+            <button class="btn cls" onclick="addScreen('1')">1</button>
+            <button class="btn cls" onclick="addScreen('0')">0</button>
+        </div>
+        <div class="phim">
+            <button id='cong' class="btn th" onclick="addScreenDau('+')">+</button>
+            <button id='tru' class="btn th" onclick="addScreenDau('-')">-</button>
+            <button class="btn th" onclick="addScreenDau('÷')">÷</button>
+            <button id='nhan' class="btn th" onclick="addScreenDau('x')">x</button>
+        </div>
+        <div class="phim">
+            <button class="btn th" onclick="dauAm()">+/-</button>
+            <button class="btn th" onclick="dauCham('.')">.</button>
+            <button class="btn th" onclick="xoaMotKiTu()">&#8592;</button>
+            <button class="btn" onclick="ketQua()" style="background-color: #fdc2c2;">=</button>
+        </div>
+    </div>
+    
+</body>
+
+</html>

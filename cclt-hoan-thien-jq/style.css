@@ -1,0 +1,90 @@
+* {
+
+    margin: auto;
+    padding: 0;
+}
+
+#spv {
+
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    color: darkgray;
+    font-family: fantasy;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#wrap.w1 {
+    border-radius: 10px;
+    width: 292px;
+    display: block;
+    border: 2px solid #333;
+    margin-top: 80px;
+    background-color: black;
+}
+
+#wrap.w2 {
+    width: 584px;
+    height: 350px;
+    background-color: #3c0a25;
+
+}
+
+
+
+.phim {
+    float: none;
+}
+
+.phim1 {
+    float: left;
+}
+
+
+.btn {
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    border-radius: 7px;
+    color: currentColor;
+    background-color: darkgray;
+}
+
+.pt1 {
+    color: #fde8e8;
+    background-color: #9c4e4e;
+}
+
+.cls1 {
+    color: #fde8e8;
+    color: #fde8e8;
+    background-color: #20575a;
+}
+
+.th1 {
+    color: #fde8e8;
+    background-color: #210d33;
+}
+
+#hienThi {
+    background-color: gainsboro;
+    color: #060113;
+    padding: 5px;
+    margin: 30px 0px 15px 10px;
+    width: 270px;
+    height: 40px;
+    font-size: 18px;
+    outline: none;
+    text-align: right;
+    border-radius: 10px;
+}
+
+#hienThi.ht {
+    margin: 30px 10px 15px 10px;
+    width: 564px;
+}

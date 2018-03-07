@@ -1,11 +1,14 @@
 *{margin: 0; padding: 0;} 
 @font-face{
 	src:url(FontDep.com-clonewars2.ttf);
-	font-family: clonewars2;
+	font-family: clonewars2;/*tên của font do mình đặt*/
 }
+/*thêm font đã download sẵn*/
 h1{
 	font-family: clonewars2;
 }
 .fontgg{
 	font-family: 'Pacifico', cursive;
+	/*do google quy định, copy nguyên bản dòng này 
+	tại family selected*/
 }

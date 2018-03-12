@@ -1,0 +1,10 @@
+*{margin: 0; padding: 0;}
+
+.navbar-dark .navbar-nav.khungmenu .nav-link {
+    /* line-height:  35px; */
+    font-size:  13px;
+    padding: 17px 10px;
+} /*
+.khoiduoi{
+	margin-top: 20px;
+}*/

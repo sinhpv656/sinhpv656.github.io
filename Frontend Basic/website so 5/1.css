@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pt-3.text-muted.chunho a.tdfooter {
+    font-size: 14px;
+    margin-top:  6px;
+    display:  block;
+}
+
+.text-muted.chunho p {
+    font-size:  12px;
+}
+
+h4 {
+    padding-top: 20px;
+}
+
+img.img-fluid {
+    padding-right:  10px;
+}
+
+.noidung {
+    background: #e4e4e4;
+}
+
+.media {
+    margin-right: 15px;
+    background: white;
+    height: 109px;
+    border-bottom:  1px solid gray;
+    margin-bottom:  100px;
+}
+
+small {
+    font-size:  15px;
+    padding-top:  10px;
+    display: block;
+    padding-bottom: 69px;
+}
+
+.texttieude h2.display-4 {
+    font-size:  34px;
+    padding-top:  90px;
+}
+
+a.btn.btn-outline-secondary.nutxem {
+    border: 2px solid white;
+    border-radius:  0px;
+}
+
+a.btn.btn-outline-secondary.nutxem:hover {
+	background: white;
+	color: black;
+}
+a.navbar-brand {
+    padding: 90px;
+}
+
+
+.navbar-light.menutop .navbar-nav a.nav-link {
+    color: #e0dada;
+    padding: 90px 15px 0 15px;
+    font-weight: 300;
+    font-family: 'Pridi', serif;
+    font-size: 16px;
+}
+
+.navbar-light.menutop .navbar-nav a.nav-link:hover {
+    color: white;
+}
+
+/*
+.chuamenu {
+    position:  fixed;
+    top:  0px;
+    z-index:  100;
+}*/
+
+nav.navbar.navbar-light.bg-faded.menutop {
+    background-color: transparent;
+    /* position:  fixed; */
+    /* top: 0px; */
+    /* z-index:  100; */
+}
+
+img.logonho {
+    height: 40px;
+}
+
+.khongkhtrong [class*='col-'] {
+		padding-left: 0;
+		padding-right: 0;
+}
+@media (max-width: 576px){
+	*{}
+	.carousel-caption h2.display-4{
+		font-size: 23px;
+	}
+	.navbar-light.menutop .navbar-nav a.nav-link{
+		padding: 13px 0;
+		border-bottom: 1px dashed gray;
+	}
+	img.logonho{
+		width: 50px;
+		height: auto;
+	}
+	.menutop a.navbar-brand{
+
+		padding: 0;
+		padding-top: 0px;
+	}
+
+	.banner nav.navbar.navbar-light.bg-faded.menutop{ background: #393e43;}
+	button.navbar-toggle.hidden-sm-up{
+		float: right;
+		background-color: white; 
+		border-radius: 0px;
+	 	padding: 10px 2px
+	 }
+}/*
+.chuamenu {
+    width: 100%;
+    height: 100px;
+    background: rgba(128, 128, 128, 0);
+    position: fixed;
+    top: 0px;
+    transition: 0.4s;
+}*/
+div#exCollapsingNavbar2 {
+    width: 87%;
+    height: 100px;
+    background: rgba(128, 128, 128, 0);
+    position: fixed;
+    top: 0px;
+    transition: 0.4s;
+}
+#exCollapsingNavbar2.bienhinh {
+    background: rgba(0, 0, 0, 0.35);
+    height: 68px;
+}

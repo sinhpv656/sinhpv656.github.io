@@ -34,6 +34,8 @@ a.logo {
 	color:#ec6952;	
 }
 .top .mphai  a.nav-link.nutsignup {
+	/*a.nav-link.nutsignup nav-link và
+	 nutsignup nằm trong class thẻ a*/
 	border-color:white;
 	padding: 12px 22px;
 	margin-top: 18px;

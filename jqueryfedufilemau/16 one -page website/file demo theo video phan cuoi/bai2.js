@@ -14,6 +14,11 @@ $(function() {
 		//cuộn xuống vị trí 900 so vs top , 1000: tốc độ 1s, 400: tốc độ 0,4s
 
 		$('body,html').animate({	scrollTop: $('.chapter1').offset().top},1400,"easeOutCubic");
+		//
+
+
+
+
 	});
 	$('.menutren ul li:nth-child(2) a').on('click', function(event) {
 		event.preventDefault();

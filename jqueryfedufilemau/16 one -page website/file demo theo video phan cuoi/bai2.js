@@ -5,7 +5,8 @@ $(function() {
 */
 
 	$('.menutren ul li:nth-child(1) a').on('click', function(event) {
-		event.preventDefault();
+		event.preventDefault(); 
+		// khong chuyen ra ngoai trang web
 		/* Act on the event */
 
 		$('body,html').animate({	scrollTop: $('.chapter1').offset().top},1400,"easeOutCubic");

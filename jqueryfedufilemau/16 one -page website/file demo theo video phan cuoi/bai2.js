@@ -51,7 +51,4 @@ $('.menutren ul li:nth-child(4) a').on('click', function(event) {
 		$('body,html').animate({	scrollTop: $('.chapter4').offset().top},1400,"easeOutCubic");
 	});
 
-
-
-
 });

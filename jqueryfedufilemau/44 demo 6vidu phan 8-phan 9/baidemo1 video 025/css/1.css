@@ -14,12 +14,15 @@
 
 .noidung:hover .anhdemo {
     transform: rotateX(360deg);
+    /*xoay 360 độ*/
     opacity:0;
+    
 }
 
 img.anhdemo {
     width: 401px;
     transform-origin: 50% 50%;
+    /*tâm quay*/
     transition: 2.8s;
     transition-timing-function: cubic-bezier(1, -0.61, 1, 0.01);
 }

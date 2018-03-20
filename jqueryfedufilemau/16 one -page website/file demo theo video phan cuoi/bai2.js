@@ -9,6 +9,10 @@ $(function() {
 		// khong chuyen ra ngoai trang web
 		/* Act on the event */
 
+
+		// $('body').animate({scrollTop:900},1000);
+		//cuộn xuống vị trí 900 so vs top , 1000: tốc độ 1s, 400: tốc độ 0,4s
+
 		$('body,html').animate({	scrollTop: $('.chapter1').offset().top},1400,"easeOutCubic");
 	});
 	$('.menutren ul li:nth-child(2) a').on('click', function(event) {
@@ -42,8 +46,6 @@ $('.nutlentren').on('click', function(event) {
 
 		$('body,html').animate({	scrollTop: 0},400,"easeInOutElastic");
 	});
-
-
 
 $('.menutren ul li:nth-child(4) a').on('click', function(event) {
 		event.preventDefault();
